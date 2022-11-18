@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoFacebook, IoLogoGoogle } from 'react-icons/io5'
 import Image from 'next/image'
 import Footer from '../components/footer'
 
@@ -76,12 +76,21 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Son Thai is a student and a full-stack developer based in Danang with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          <Link href="https://github.com/thairyo/" target="_blank">
+            Son Thai
+          </Link>{' '}
+          is a student and a full-stack developer based in Danang with a passion
+          for building digital services/stuff he wants. He has a knack for all
+          things launching products, from planning and designing all the way to
+          solving real-life problems with code. When not online, he enjoys
+          reading books, watching movies and finding out interesting things.
+          Currently, he is developing a project for the school called{' '}
+          <Link
+            href="https://github.com/thairyo/city-bus-tracking/"
+            target="_blank"
+          >
+            Danabus
+          </Link>
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -115,15 +124,14 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+          Art, Music, Drawing , Playing Piano,{' '}
+          <Link
+            href="https://steamcommunity.com/profiles/76561199076340089"
+            target="_blank"
+          >
+            Game
           </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          , Machine Learning
         </Paragraph>
       </Section>
 
@@ -144,42 +152,31 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://www.facebook.com/ryo.sonthai" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoFacebook />}
               >
-                @thairyo
+                @sonthai
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="mailto:sonthai1310.works@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoGoogle />}
               >
-                @thairyo
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @thairyo
+                @sonthai1310.works@gmail.com
               </Button>
             </Link>
           </ListItem>
         </List>
       </Section>
     </Container>
-    <Footer/>
+    <Footer />
   </Layout>
 )
 
