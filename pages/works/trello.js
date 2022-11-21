@@ -15,7 +15,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://react-trello-clone-a8e01.web.app/">
-            https://react-trello-clone-a8e01.web.app/{' '}
+            https://react-trello-clone-a8e01.web.app
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -25,7 +25,14 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, ReactJS</span>
+          <span>NodeJS, ReactJS, MongoDB</span>
+        </ListItem>
+        <ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/thairyo/react-trello-clone">
+            https://github.com/thairyo/react-trello-clone
+            <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
       </List>
 

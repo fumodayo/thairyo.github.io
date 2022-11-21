@@ -76,7 +76,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          <Link href="https://github.com/thairyo/" target="_blank">
+          <Link href="https://github.com/thairyo" target="_blank">
             Son Thai
           </Link>{' '}
           is a student and a full-stack developer based in Danang with a passion
@@ -86,7 +86,7 @@ const Home = () => (
           reading books, watching movies and finding out interesting things.
           Currently, he is developing a project for the school called{' '}
           <Link
-            href="https://github.com/thairyo/city-bus-tracking/"
+            href="https://github.com/thairyo/city-bus-tracking"
             target="_blank"
           >
             Danabus
@@ -141,7 +141,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/thairyo" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"

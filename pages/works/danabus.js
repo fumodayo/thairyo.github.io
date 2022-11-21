@@ -17,8 +17,9 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://react-trello-clone-a8e01.web.app/">
-          https://react-trello-clone-a8e01.web.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://thairyo.github.io/city-bus-tracking">
+            https://thairyo.github.io/city-bus-tracking
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -29,10 +30,19 @@ const Work = () => (
           <Meta>Stack</Meta>
           <span>NodeJS, Mapbox, ReactJS</span>
         </ListItem>
+        <ListItem>
+          <Meta>Github</Meta>
+          <Link href="https://github.com/thairyo/city-bus-tracking">
+            https://github.com/thairyo/city-bus-tracking
+            <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/danabus-banner.png" alt="Danabus" />
       <WorkImage src="/images/works/danabus2.png" alt="Danabus" />
+      <WorkImage src="/images/works/danabus-routes.gif" alt="Danabus" />
+      <WorkImage src="/images/works/danabus-directions.gif" alt="Danabus" />
     </Container>
   </Layout>
 )
